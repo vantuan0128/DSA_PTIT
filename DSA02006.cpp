@@ -1,3 +1,19 @@
+/*
+Cho dãy số A[] = (a1, a2, .., an) và số tự nhiên K. 
+Hãy đưa ra tất cả các dãy con của dãy số A[] sao cho tổng các phần tử của dãy con đó đúng bằng K. 
+Các phần tử của dãy số A[] được giả thuyết là nguyên dương và không có các phần tử giống nhau. 
+Ví dụ với dãy con A[] = {5, 10, 15, 20, 25}, K = 50 ta có 3 dãy con {5, 10, 15, 20}, {5, 20, 25}, {10, 15, 25}.
+
+Input:
+2
+5 50
+5  10 15 20  25
+8  53
+15  22  14  26  32  9  16  8
+Output:
+[5 10 15 20] [5 20 25] [10 15 25]
+[8 9 14 22] [8 14 15 16] [15 16 22]
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int n,s,check[100],a[100],x[100],ok;
