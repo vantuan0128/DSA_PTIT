@@ -1,3 +1,6 @@
+/*
+Cho số nguyên dương N. Nhiệm vụ của bạn là hãy liệt kê tất cả các hoán vị của 1, 2, .., N. Ví dụ với N = 3 ta có kết quả: 123, 132, 213, 231, 312, 321.
+*/
 #include <iostream>
 using namespace std;
 
@@ -25,9 +28,7 @@ void Hvke(int a[],int n){
 			a[k]=tmp;
 		int l=i+1; int r=n;
 		while(l<r){
-			tmp=a[l];
-			a[l]=a[r];
-			a[r]=tmp;
+			swap(a[l],a[r]);
 			l++;r--;
 		}			
 	}
