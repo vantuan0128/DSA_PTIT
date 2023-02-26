@@ -1,3 +1,8 @@
+/*
+Cho số nguyên dương (1<N<40) và số nguyên dương K<N. 
+Với 1 tổ hợp chập K phần tử của N, hãy cho biết tổ hợp tiếp theo sẽ có bao nhiêu phần tử mới. 
+Nếu tổ hợp đã cho là cuối cùng thì kết quả là K.  
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int n,k,a[1001];
