@@ -1,3 +1,10 @@
+/*
+Cho dãy số A gồm N phần tử là các số nguyên. Hãy tính tích lớn nhất của 2 hoặc 3 phần tử trong dãy.
+Input:
+6
+5 10 -2 3 5 2
+Output: 250
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
