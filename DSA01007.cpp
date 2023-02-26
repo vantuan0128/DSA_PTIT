@@ -1,3 +1,7 @@
+/*
+Xâu ký tự str được gọi là xâu AB nếu mỗi ký tự trong xâu hoặc là ký tự ‘A’ hoặc là ký tự ‘B’.
+Ví dụ xâu str=”ABBABB” là xâu AB độ dài 6. Nhiệm vụ của bạn là hãy liệt kê tất cả các xâu AB có độ dài n.
+*/
 #include <bits/stdc++.h>
 using namespace std;
 void SinhXauAB(char a[], int n){
