@@ -1,3 +1,7 @@
+/*
+Cho một tổ hợp chập K của N số nguyên dương đầu tiên (2 < K < N < 15).
+Hãy xác định xem đó là tổ hợp thứ bao nhiêu nếu liệt kê tất cả các tổ hợp theo thứ tự tăng dần (tính từ 1).
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int n, k, C[30],c[30];
