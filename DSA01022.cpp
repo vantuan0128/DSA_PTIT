@@ -1,3 +1,7 @@
+/*
+Cho một hoán vị của N số nguyên dương đầu tiên.
+Hãy xác định xem đó là hoán vị thứ bao nhiêu nếu liệt kê theo thứ tự tăng dần (tính từ 1).
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int n, A[21], B[21]={0},c[21];
