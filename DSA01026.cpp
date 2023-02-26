@@ -1,3 +1,10 @@
+/*
+Một xâu ký tự số chỉ bao gồm các chữ số 6 và 8 sẽ được gọi là “phát lộc” nếu thỏa mãn các điều kiện sau:
+Độ dài xâu ít nhất là 6
+Chữ số đầu tiên là chữ số 8, chữ số cuối cùng là chữ số 6
+Không có 2 chữ số 8 nào ở cạnh nhau
+Không có nhiều hơn 3 chữ số 6 ở cạnh nhau.
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int n,a[50];
