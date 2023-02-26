@@ -1,3 +1,6 @@
+/*
+Hãy in ra tất cả các xâu nhị phân độ dài N, có K bit 1 theo thứ tự từ điển tăng dần.
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int n,m;
