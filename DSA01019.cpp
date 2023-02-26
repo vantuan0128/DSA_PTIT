@@ -1,3 +1,17 @@
+/*
+Khi chat chit vui vẻ, anh em chiến hữu thường hay gõ HAHA để thể hiện sự sảng khoái. Đôi khi cũng có thể gõ HAHAAAAA chẳng hạn cho thêm phần nhấn mạnh.
+Giả sử một xâu ký tự được coi là HAHA nếu thỏa mãn các điều kiện:
+	Ký tự đầu tiên phải là chữ H, ký tự cuối cùng phải là chữ A
+	Không có hai chữ H nào liền nhau
+Input   2
+
+	2
+
+	4
+Output HA
+	HAAA
+	HAHA
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int a[100000],n; //1 la H, 0 la A //Bat buoc vi thu tu xuat hien
