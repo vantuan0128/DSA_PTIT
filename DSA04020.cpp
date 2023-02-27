@@ -1,3 +1,16 @@
+/*
+Cho dãy số A[] gồm có N phần tử đã được sắp xếp tăng dần và số K.
+Nhiệm vụ của bạn là kiểm tra xem số K có xuất hiện trong dãy số hay không. Nếu có hãy in ra vị trí trong dãy A[], nếu không in ra “NO”.
+Input:
+2
+5 3
+1 2 3 4 5
+6 5
+0 1 2 3 9 10
+Output:
+3
+NO
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int xuly(int a[],int l,int r,int k){
