@@ -1,3 +1,16 @@
+/*
+Cho tập các số A[] = (a1, a2, .., an). Hãy kiểm tra xem ta có thể chia tập A[] thành hai tập con sao cho tổng các phần tử của hai tập con bằng nhau hay không. 
+Đưa ra YES nếu có thể thực hiện được, ngược lại đưa ra NO.
+Input:
+2
+4
+1 5 11 5
+3
+1 3 5 
+Output:
+YES
+NO
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
