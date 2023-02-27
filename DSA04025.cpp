@@ -1,3 +1,17 @@
+/*
+Dãy số nguyên dương vô hạn A[] được định nghĩa một cách đệ quy như sau:
+	A[0] = 0
+	A[1] = 1;
+	A[i] = A[i-1] + A[i-2] với mọi n ≥ 2.
+Cho số nguyên dương N không quá 109. Hãy xác định số thứ N trong dãy A[]. Nếu kết quả quá lớn, hãy in ra theo modulo 10^9+7.
+Input:
+2
+2
+6
+Output: 
+1
+8
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
