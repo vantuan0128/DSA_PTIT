@@ -1,3 +1,13 @@
+/*
+Cho mảng số N. Ta gọi số đảo của N là R. Hãy tìm lũy thừa R của N. Đưa ra kết quả của bài toán dưới dạng modulo với 10^9 + 7.
+Input: 2
+	2
+	12
+Output:
+4
+864354781
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 int M=1e9+7;
@@ -8,6 +18,7 @@ long long xuly(long long n, long long k){
 	if(k%2==0) return (x*x)%M;
 	else return (n*(x*x%M))%M;
 }
+
 long long sodao(long long n){
 	long long m=n;
 	long long N,somoi=0; 
