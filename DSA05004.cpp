@@ -1,3 +1,13 @@
+/*
+Cho một dãy số nguyên gồm N phần tử A[1], A[2], ... A[N]. 
+Biết rằng dãy con tăng là 1 dãy A[i1],... A[ik]
+thỏa mãn i1 < i2 < ... < ik và A[i1] < A[i2] < .. < A[ik].
+Hãy cho biết dãy con tăng dài nhất của dãy này có bao nhiêu phần tử? 
+Input:
+6
+1 2 5 4 6 2
+Output:4
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
