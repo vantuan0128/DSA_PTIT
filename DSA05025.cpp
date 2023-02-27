@@ -1,3 +1,14 @@
+/*
+Một con ếch có thể nhảy 1, 2, 3 bước để có thể lên đến một đỉnh cần đến. Hãy đếm số các cách con ếch có thể nhảy đến đỉnh.
+Input:
+2
+1
+5
+Output:
+1
+13
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
