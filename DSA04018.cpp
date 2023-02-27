@@ -1,3 +1,18 @@
+/*
+Cho mảng A[] gồm N phần tử chỉ bao gồm các số 0 và 1. Các số 0 được đặt trước các số 1. Hãy đếm các số 0 với thời gian log(N).
+Input:
+3
+12
+0 0 0 0 0 0 0 0 0 1 1 1 
+5
+0 0 0 0 0
+6
+1 1 1 1 1 1
+Output:
+9
+5
+0
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int first_pos(int a[], int n, int x){
