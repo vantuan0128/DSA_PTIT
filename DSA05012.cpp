@@ -1,3 +1,13 @@
+/*
+Cho 2 số nguyên n, k. Bạn hãy tính C(n, k) modulo 10^9+7.
+Input:
+2
+5 2
+10 3
+Output:
+10
+120
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int C[1001][1001];
