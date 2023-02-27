@@ -1,5 +1,5 @@
 /*
-Cho số nguyên dương N và K. Hãy tính N mu K modulo 109+7.
+Cho số nguyên dương N và K. Hãy tính N mu K modulo 10^9+7.
 Input: 2
 	2 3
 	4 2
