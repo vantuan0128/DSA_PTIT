@@ -1,3 +1,16 @@
+/*
+Cho 2 xâu S1 và S2. Hãy tìm xâu con chung dài nhất của 2 xâu này (các phần tử không nhất thiết phải liên tiếp nhau).
+Input: Dòng đầu tiên là số lượng bộ test T (T ≤ 20). Mỗi test gồm hai dòng, mô tả xâu S1 và S2, mỗi xâu có độ dài không quá 1000 và chỉ gồm các chữ cái in hoa.
+Input:
+2
+AGGTAB
+GXTXAYB
+AA
+BB
+Output:
+4
+0
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int C[1005][1005];
