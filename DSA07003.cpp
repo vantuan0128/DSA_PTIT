@@ -1,3 +1,15 @@
+/*
+Cho biểu thức số học, hãy cho biết biểu thức số học có dư thừa các cặp ký hiệu ‘(’,’) ‘ hay không?
+Input:
+3
+((a+b))
+(a + (b)/c)
+(a + b*(c-d))
+Output:
+Yes
+Yes
+No
+*/
 #include<bits/stdc++.h>
 
 using namespace std;
