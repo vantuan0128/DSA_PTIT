@@ -1,3 +1,17 @@
+/*
+Cho một xâu chỉ gồm các kí tự ‘(‘, ‘) và có độ dài chẵn. Hãy đếm số lượng dấu ngoặc cần phải đổi chiều ít nhất, sao cho xâu mới thu được là một dãy ngoặc đúng.
+Input:
+4
+))((
+((((
+(((())
+)(())(((
+Output:
+2
+2
+1
+3
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
