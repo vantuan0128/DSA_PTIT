@@ -1,4 +1,18 @@
-
+/*
+Cho dãy số A[] gồm có N phần tử. Bạn cần tìm 2 vị trí i, j sao cho j-i lớn nhất và A[j] > A[i].
+Input:
+3
+9
+34 8 10 3 2 80 30 33 1
+6
+1 2 3 4 5 6
+6
+6 5 4 3 2 1
+Output:
+6
+5
+-1
+*/
 #include<bits/stdc++.h>
 
 using namespace std;
