@@ -1,3 +1,19 @@
+/*
+Cho dãy số A[] gồm có N phần tử.
+Nhiệm vụ của bạn là hãy đếm số bộ ba (i, j, k) mà A[i] + A[j] + A[k] < K cho trước.
+Dòng đầu tiên là số lượng bộ test T (T ≤ 20).
+Mỗi test gồm số nguyên N và K (1≤ N ≤5000, -10^9 ≤ K ≤ 10^9).
+Dòng tiếp theo gồm N số nguyên A[i] (-10^9 ≤ A[i] ≤ 10^9).
+Input:
+2
+4 2
+-2 0 1 3
+5 12
+5 1 3 4 7
+Output:
+2
+4
+*/
 #include <bits/stdc++.h>
 using namespace std;
 using ll=long long;
