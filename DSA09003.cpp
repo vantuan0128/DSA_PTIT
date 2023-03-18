@@ -1,3 +1,24 @@
+/*
+Cho đồ thị có hướng G=<V, E> được biểu diễn dưới dạng danh sách cạnh. Hãy viết chương trình thực hiện chuyển đổi biểu diễn đồ thị dưới dạng danh sách kề.
+1
+6  9
+1  2
+2  5
+3  1
+3  2
+3  5
+4  3
+5  4
+5  6
+6  4
+Output:
+1: 2
+2: 5
+3: 1 2 5
+4: 3
+5: 4 6
+6: 4
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
