@@ -1,3 +1,19 @@
+/*
+Ma trận kề A của một đồ thị vô hướng là một ma trận chỉ có các số 0 hoặc 1 trong đó A[i][j] = 1 có ý nghĩa là đỉnh i kề với đỉnh j (chỉ số tính từ 1).
+
+Danh sách kề thì liệt kê các đỉnh kề với đỉnh đó theo thứ tự tăng dần.
+
+Hãy chuyển biểu diễn đồ thị từ dạng ma trận kề sang dạng danh sách kề.
+Input:
+3
+0 1 1
+1 0 1
+1 1 0
+Output:
+2 3
+1 3
+1 2
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
