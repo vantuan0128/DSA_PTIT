@@ -1,3 +1,13 @@
+/*
+Cho số tự nhiên N. Hãy tìm số nguyên dương X nhỏ nhất được tạo bởi số 9 và số 0 chia hết cho N. Ví dụ với N = 5 ta sẽ tìm ra  X = 90.
+Input:
+2
+5
+7
+Output:
+90
+9009
+*/
 #include <bits/stdc++.h>
 using namespace std;
 using ll=long long;
