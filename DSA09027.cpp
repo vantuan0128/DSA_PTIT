@@ -1,3 +1,20 @@
+/*
+Cho đồ thị vô hướng có N đỉnh và M cạnh. Có Q truy vấn, mỗi truy vấn yêu cầu trả lời câu hỏi giữa 2 đỉnh x và y có tồn tại đường đi tới nhau hay không?
+Input:
+1
+6 5
+1 2
+2 3
+3 4
+1 4
+5 6
+2
+1 5
+2 4
+Output:
+NO
+YES
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
