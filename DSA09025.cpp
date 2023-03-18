@@ -1,3 +1,12 @@
+/*
+Cho đồ thị có hướng G=<V, E> được biểu diễn dưới dạng danh sách cạnh. Hãy tìm đường đi từ đỉnh sÎV đến đỉnh tÎV trên đồ thị bằng thuật toán DFS.
+Input:
+1
+6  9  1  6
+1 2 2 5 3 1 3 2 3 5 4 3 5 4 5 6 6 4
+Output:
+1 2 5 6
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
