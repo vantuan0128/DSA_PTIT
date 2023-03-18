@@ -1,3 +1,15 @@
+/*
+Cho đơn đồ thị G vô hướng liên thông được mô tả bởi danh sách kề. Hãy in ra danh sách cạnh tương ứng của G.
+Input:
+3
+2 3
+1 3
+1 2
+Output:
+1 2
+1 3
+2 3
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
