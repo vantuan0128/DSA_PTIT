@@ -1,3 +1,17 @@
+/*
+Một số được gọi là lộc phát nếu chỉ có 2 chữ số 6 và 8. Cho số tự nhiên N. Hãy liệt kê các số lộc phát có không quá N chữ số.
+Output thỏa mãn dòng đầu tiên là số lượng số lộc phát tìm được. Dòng thứ hai in đáp án theo thứ tự tăng dần.
+Input:
+2
+2
+3
+Output:
+6
+6 8 66 68 86 88
+14
+6 8 66 68 86 88 666 668 686 688 866 868 886 888
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
