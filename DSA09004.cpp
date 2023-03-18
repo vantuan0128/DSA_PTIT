@@ -1,3 +1,20 @@
+/*
+Cho đồ thị vô hướng G=<V, E> được biểu diễn dưới dạng danh sách cạnh. Hãy viết thuật toán duyệt theo chiều sâu bắt đầu tại đỉnh uÎV (DFS(u)=?)
+Input:
+1
+6 9 5
+1 2
+1 3
+2 3
+2 4
+3 4
+3 5
+4 5
+4 6
+5 6
+Output:
+5 3 1 2 4 6
+*/
 #include <bits/stdc++.h>
 using namespace std;
 #define pb push_back
