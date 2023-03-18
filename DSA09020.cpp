@@ -1,3 +1,19 @@
+/*
+Cho đơn đồ thị vô hướng có n đỉnh dưới dạng danh sách kề.
+
+Hãy biểu diễn đồ thị bằng ma trận kề.
+
+Input: Dòng đầu tiên chứa số nguyên n – số đỉnh của đồ thị (1 ≤  n ≤  1000). n dòng tiếp theo, dòng thứ i chứa các số nguyên là các đỉnh kề với đỉnh i.  
+3
+2 3
+1 3
+1 2
+Output:
+0 1 1
+1 0 1
+1 1 0
+
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
