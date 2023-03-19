@@ -1,3 +1,15 @@
+/*
+Cho số nguyên N. Nhiệm vụ của bạn cần tìm số nguyên X nhỏ nhất là bội của N, và X chỉ chứa hai chữ số 0 và 9.
+Input:
+3
+2
+5
+11
+Output:
+90
+90
+99
+*/
 #include <bits/stdc++.h>
 using namespace std;
 using ll=long long;
@@ -42,6 +54,37 @@ int main(){
     while(t--){
         int m; cin>>m;
         cout<<ans[m]<<endl;
+    }
+    return 0;
+}
+
+//Cach 2
+#include<bits/stdc++.h>
+
+using namespace std;
+vector<string> v;
+
+void solve(int n) {
+    queue<string> q;
+    q.push("9");
+    while(!q.empty()) {
+        string tmp = q.front();
+        q.pop();
+        if(stoll(tmp) % n == 0) {
+            cout << tmp << endl;
+            return;
+        }
+        q.push(tmp + "0");
+        q.push(tmp + "9");
+    }
+}
+int main() {
+    int t;
+    cin >> t;
+    while(t--) {
+        int n;
+        cin >> n;
+        solve(n);
     }
     return 0;
 }
