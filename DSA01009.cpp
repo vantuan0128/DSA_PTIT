@@ -1,3 +1,19 @@
+/*
+Một xâu kí tự S = (s1, s2, .., sn) được gọi là xâu AB độ dài n nếu với mọi siÎS thì si hoặc là kí tự A hoặc si là kí tự B . 
+Ví dụ xâu S = “ABABABAB” là một xâu AB độ dài 8. Cho số tự nhiên N và số tự nhiên K (1£K<N£15 được nhập từ bàn phím), 
+hãy viết chương trình liệt kê tất cả các xâu AB có độ dài N chứa duy nhất một dãy K kí tự A liên tiếp.
+
+Dữ liệu vào chỉ có một dòng ghi hai số N và K.
+Input:
+5 3
+Output:
+5
+AAABA
+AAABB
+ABAAA
+BAAAB
+BBAAA
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int n,k;
