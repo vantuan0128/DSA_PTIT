@@ -1,3 +1,14 @@
+/*
+Cho N sợi dây với độ dài khác nhau được lưu trong mảng A[]. Nhiệm vụ của bạn là nối N sợi dây thành một sợi sao cho tổng chi phí nối dây là nhỏ nhất. 
+Biết chi phí nối sợi dây thứ i và sợi dây thứ j là tổng độ dài hai sợi dây A[i] và A[j].
+In ra đáp án của bộ test trên từng dòng, theo modulo 10^9+7.
+Input:
+1
+7
+2 4 1 2 10 2 3
+Output:
+59
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int M=1e9+7;
