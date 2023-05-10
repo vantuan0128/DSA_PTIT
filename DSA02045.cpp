@@ -1,3 +1,12 @@
+/*
+Cho một xâu ký tự S không có ký tự lặp lại. Hãy đưa ra tất cả các tập con của xâu ký tự S theo thứ tự từ điển.
+Input:
+1
+3
+abc
+Output:
+a ab abc ac b bc c
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
