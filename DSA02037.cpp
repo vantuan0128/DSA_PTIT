@@ -1,3 +1,19 @@
+/*
+Cho dãy số A[] có N phần tử là các số nguyên dương khác nhau từng đôi một. Hãy liệt kê tất cả các dãy con của A[] có tổng các phần tử là số nguyên tố.
+Các dãy con được liệt kê theo thứ tự từ điển tăng dần.
+Input:
+1
+4
+3 2 5 4
+Output:
+2
+3
+3 2
+4 3
+5
+5 2
+5 4 2
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
