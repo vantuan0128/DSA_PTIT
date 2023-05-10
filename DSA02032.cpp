@@ -1,3 +1,18 @@
+/*
+Cho mảng A[] gồm N số nguyên dương phân biệt và số X. 
+Nhiệm vụ của bạn là tìm phép tổ hợp các số trong mảng A[] có tổng bằng X. Các số trong mảng A[] có thể được sử dụng nhiều lần. 
+Mỗi tổ hợp các số của mảng A[] được in ra theo thứ tự không giảm các số. Ví dụ với A[] = {2, 4, 6, 8}, X = 8 ta có các tổ hợp các số như sau:
+{2, 2, 2, 2}, {2, 2, 4}, {2, 6}, {4, 4}, {8}.
+Input:
+2
+4  8
+2  4  6  8
+2 9
+10 11
+Output:
+5 {2 2 2 2} {2 2 4} {2 6} {4 4} {8}
+-1
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int n,s;
