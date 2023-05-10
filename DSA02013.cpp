@@ -1,3 +1,18 @@
+/*
+Cho ba số N, P, S. Trong đó, P là một số nguyên tố. Nhiệm vụ của bạn là đưa ra tất cả N số nguyên tố lớn hơn P có tổng bằng S. 
+Ví dụ với S = 28, P=7, N =2 ta có kết quả 11 + 17 = 28. 
+Với N = 3, P = 2, S = 23 ta có kết quả : {3, 7, 13}, {5, 7, 11}
+Input:
+2
+2  7  28
+3  2  23
+Output:
+1
+11 17
+2
+3 7 13
+5 7 11
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int n,p,s;
