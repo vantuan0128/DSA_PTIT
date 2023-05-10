@@ -1,3 +1,19 @@
+/*
+Dãy số Fibonacci được xác định bằng công thức như sau:
+F[0] = 0, F[1] = 1;
+F[n] = F[n-1] + F[n-2] với mọi n >= 2.
+Các phần tử đầu tiên của dãy số là 0, 1, 1, 2, 3, 5, 8, ...
+Nhiệm vụ của bạn là hãy xác định số Fibonaci thứ n. Do đáp số có thể rất lớn, in ra kết quả theo modulo 10^9+7.
+Input:
+3
+2
+6
+20
+Output:
+1
+8
+6765
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int M=1e9+7;
