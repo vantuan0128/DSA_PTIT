@@ -1,3 +1,16 @@
+/*
+Cho số nguyên dương N. Hãy đếm số bước ít nhất để đưa N về 1 bằng cách thực hiện ba thao tác dưới đây:
+Nếu N chia hết cho 2 bạn có thể giảm N = N/2.
+Nếu N chia hết cho 3 bạn có thể giảm N = N/3.
+Giảm N đi 1.
+Input:
+2
+10
+6
+Output:
+3
+2
+*/
 #include <bits/stdc++.h>
 using namespace std;
 typedef pair <int,int> pi;
