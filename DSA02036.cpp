@@ -1,3 +1,21 @@
+/*
+Cho dãy số A[] có N phần tử là các số nguyên dương khác nhau từng đôi một.
+Hãy sắp xếp dãy theo thứ tự giảm dần, sau đó liệt kê tất cả các dãy con (đúng thứ tự trước sau) của A[] có tổng các phần tử là số lẻ.
+Các dãy con được liệt kê theo thứ tự từ điển tăng dần.
+Input:
+1
+4
+2 3 4 5
+Output:
+3
+3 2
+4 3
+4 3 2
+5
+5 2
+5 4
+5 4 2
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -11,7 +29,7 @@ void Try(int i){
 		if(i == k){
 			int sum = 0;
 			for(int i=1; i<=k; i++) sum += a[X[i]];
-			if(sum%2==1){
+			if(sum % 2 == 1){
 				vector <int> v;
 				for(int i=k; i>=1; i--){
 					v.push_back(a[X[i]]);
