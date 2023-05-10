@@ -1,3 +1,17 @@
+/*
+Một dãy số được gọi là Bi-tonic nếu nó được chia thành hai dãy đầu tăng dần và dãy tiếp theo giảm dần. 
+Nhiệm vụ của bạn là tìm tổng lớn nhất dãy con Bi-tonic của dãy số A[]. 
+Ví dụ với dãy A[] = {1, 15, 51, 45, 33, 100, 12, 18, 9} ta có kết quả là 194 tương ứng với dãy Bi-tonic {1, 15, 51, 100, 18, 9}.
+Input:
+2
+6
+80 60 30 40 20 10
+9
+1 15 51 45 33 100 12 18 9
+Output:
+210
+194
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
