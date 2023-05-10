@@ -1,3 +1,42 @@
+/*
+Cho một dãy các xâu ký tự chỉ bao gồm các chữ cái in hoa từ A đến Z, trong đó các ký tự trong mỗi xâu đều đã được sắp xếp theo thứ tự từ điển 
+và mỗi chữ cái chỉ xuất hiện nhiều nhất một lần (tức là độ dài xâu tối đa là 26). Nếu một ký tự xuất hiện trong hai xâu liên tiếp thì được coi là một lần lặp. 
+Hãy tìm cách sắp xếp lại thứ tự các xâu sao cho số lần lặp là nhỏ nhất có thể. Ví dụ dưới đây là cùng một dãy xâu nhưng với cách sắp xếp lại thì số lần lặp chỉ còn 2.
+ABC
+ABEF
+DEF
+ABCDE
+FGH
+=> Số lần lặp là 6
+ABEF
+DEF
+ABC
+FGH
+ABCDE
+=> Số lần lặp là 2.
+Input & Output:
+4
+XYZ
+XYZ
+ABYZ
+Z
+--> 4
+6
+BDE
+FGH
+DEF
+ABC
+BDE
+ABEF
+--> 3
+5
+ABC
+ABEF
+DEF
+ABCDE
+FGH
+--> 2
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int c[20][20], n, x[20], fopt = 1e9, xopt[20], cmin=1e9, cost=0;
