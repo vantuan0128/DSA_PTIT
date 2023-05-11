@@ -1,3 +1,13 @@
+/*
+Hãy viết chương trình chuyển đổi biểu thức biểu diễn dưới dạng hậu tố về dạng tiền tố.
+Input:
+2
+AB+CD-*
+ABC/-AK/L-*
+Output:
+*+AB-CD
+*-A/BC-/AKL
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
