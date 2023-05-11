@@ -1,3 +1,12 @@
+/*
+Cho đồ thị vô hướng G=<V, E> được biểu diễn dưới dạng danh sách cạnh. Hãy tìm số thành phần liên thông của đồ thị bằng thuật toán BFS.
+Input:
+1
+6  6 
+1 2 1 3 2 3 3 4 3 5 4 5
+Output:
+2
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
