@@ -1,3 +1,19 @@
+/*
+Cho cây nhị phân, nhiệm vụ của bạn là kiểm tra xem cây nhị phân có phải là một cây hoàn hảo hay không (perfect tree)? 
+Một cây nhị phân được gọi là cây hoàn hảo nếu tất cả các node trung gian của nó đều có hai node con và tất cả các node lá đều có cùng một mức.
+Input:
+3
+6
+10 20 L 10 30 R 20 40 L 20 50 R 30 60 L 30 70 R
+2
+18 15 L 18 30 R
+5
+1 2 L 2 4 R 1 3 R 3 5 L 3 6 R
+Output:
+Yes
+Yes
+No
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
