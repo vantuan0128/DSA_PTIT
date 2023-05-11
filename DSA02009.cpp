@@ -1,3 +1,16 @@
+/*
+Cho mảng các số nguyên A[] gồm N phần tử. Hãy chia mảng số nguyên A[] thành K tập con khác rỗng sao cho tổng các phần tử của mỗi tập con đều bằng nhau.
+Mỗi phần tử thuộc tập con xuất hiện duy nhất một lần trong tất cả các tập con. Ví dụ với A[] = {2, 1, 4, 5, 6}, K =3 ta có kết quả {2, 4}, {1, 5}, {6}.
+Input:
+2
+5 3
+2 1 4 5 6
+5 3
+2 1 5 5 6
+Output:
+1
+0
+*/
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
