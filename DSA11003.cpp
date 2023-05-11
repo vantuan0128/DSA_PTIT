@@ -1,3 +1,27 @@
+/*
+Cho phép duyệt cây nhị phân Inorder và Preorder, hãy đưa ra kết quả phép duyệt Postorder của cây nhị phân. 
+Ví dụ với cây nhị phân có các phép duyệt cây nhị phân của cây dưới đây:
+
+         1
+      /    \    
+     2       3
+   /   \      \
+  4     5      6
+Inorder     : 4  2  5  1  3  6
+
+Preorder:  : 1  2  4  5  3  6
+
+Postorder : 4  5  2  6  3  1 
+
+Đưa ra kết quả phép duyệt Postorder theo từng dòng.
+Input:
+1
+6
+4  2  5  1  3  6
+1  2  4  5  3  6
+Output:
+4  5  2  6  3  1
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
