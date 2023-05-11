@@ -1,3 +1,21 @@
+/*
+Cho một cây có N node, gốc tại  1. Độ cao của một node u được tính bằng khoảng cách từ u tới node gốc. 
+Độ cao của node gốc bằng 0. Nhiệm vụ của bạn là hãy tìm node xa node gốc nhất và in ra độ cao của node này.
+Input:
+2
+5
+1 2
+1 3
+2 4
+2 5
+4
+1 2
+2 3
+3 4
+Output:
+2
+3
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
