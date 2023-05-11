@@ -1,3 +1,16 @@
+/*
+Cho cây nhị phân, nhiệm vụ của bạn là duyệt cây theo xoắn ốc (spiral-order). Phép. Ví dụ với cây dưới đây sẽ cho ta kết quả của phép duyệt spiral-order: 1 2 3  4 5 6 7.
+Đưa ra kết quả phép duyệt level-order theo từng dòng.
+Input:
+2
+2
+1 2 R 1 3 L
+4
+10 20 L 10 30 R 20 40 L 20 60 R
+Output:
+1 3 2
+10 0 30 60 40
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
