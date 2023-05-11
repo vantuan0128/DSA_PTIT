@@ -1,3 +1,16 @@
+/*
+Cho cây nhị phân, nhiệm vụ của bạn là kiểm tra xem cây nhị phân có phải là một cây đủ hay không (full binary tree)? 
+Một cây nhị phân được gọi là cây đủ nếu tất cả các node trung gian của nó đều có hai node con.
+Input:
+2
+4
+1 2 L 1 3 R 2 4 L 2 5 R
+3
+1 2 L 1 3 R 2 4 L
+Output:
+1
+0
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
