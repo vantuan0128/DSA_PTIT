@@ -1,3 +1,13 @@
+/*
+Cho cây nhị phân có giá trị mỗi node là một số, nhiệm vụ của bạn là tìm tổng lớn nhất từ một node lá này sang một node lá khác? 
+Ví dụ với cây dưới đây ta có tổng lớn nhất là 27.
+Input:
+1
+12
+-15 5 L -15 6 R 5 -8 L 5 1 R -8 2 L -8 -3 R 6 3 L 6 9 R 9 0 R 0 4 L 0 -1 R -1 10 L
+Output:
+27
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
