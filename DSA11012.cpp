@@ -1,3 +1,18 @@
+/*
+Cho hai cây nhị phân, nhiệm vụ của bạn là kiểm tra xem cây nhị phân có giống nhau hay không?
+2
+2
+1 2 L 1 3 R
+2
+1 2 L 1 3 R
+2
+1 2 L 1 3 R
+2
+1 3 L 1 2 R
+Output:
+1
+0
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
