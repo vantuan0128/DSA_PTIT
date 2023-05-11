@@ -1,3 +1,13 @@
+/*
+Cho số nguyên dương N có không quá 1000 chữ số. Hãy tính độ dài lớn nhất của một số thuận nghịch tạo được bằng cách lấy liên tiếp các chữ số trong N.
+Input:
+2
+13731456
+44444
+Output:
+5
+5
+*/
 #include<iostream>
 #include<string.h>
 using namespace std;
