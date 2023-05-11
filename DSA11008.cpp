@@ -1,3 +1,15 @@
+/*
+Cho cây nhị phân, nhiệm vụ của bạn là kiểm tra xem tất cả các node lá của cây có cùng một mức hay không? Ví dụ với cây dưới đây sẽ cho ta kết quả là Yes.
+Input:
+2
+2
+1 2 R 1 3 L
+4
+10 20 L 10 30 R 20 40 L 20 60 R
+Output:
+1
+0
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
