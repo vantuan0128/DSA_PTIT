@@ -1,3 +1,15 @@
+/*
+Cho đồ thị vô hướng G=<V, E> được biểu diễn dưới dạng danh sách cạnh. Hãy tìm đường đi từ đỉnh sÎV đến đỉnh tÎV trên đồ thị bằng thuật toán DFS.
+Đưa ra đường đi từ đỉnh s đến đỉnh t của mỗi test theo thuật toán DFS của mỗi test theo khuôn dạng của ví dụ dưới đây. Nếu không có đáp án, in ra -1.
+Input:
+1
+
+6  9 1 6
+
+1 2 1 3 2 3 2 5 3 4 3 5 4 5 4 6 5 6
+Output:
+1 2 3 4 5 6
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
