@@ -1,3 +1,16 @@
+/*
+Cho cây nhị phân, nhiệm vụ của bạn là duyệt cây theo Level-order. Phép duyệt level-order trên cây là phép thăm node theo từng mức của cây. 
+Ví dụ với cây dưới đây sẽ cho ta kết quả của phép duyệt level-order: 20  8  22  4  12  10  14.
+Input:
+2
+2
+1 2 R 1 3 L
+4
+10 20 L 10 30 R 20 40 L 20 60 R
+Output:
+1 3 2
+10 20 30 40 60
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
