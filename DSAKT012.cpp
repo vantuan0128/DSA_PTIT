@@ -1,3 +1,14 @@
+/*
+Có n tờ tiền có giá trị t[1], t[2], …, t[n].
+Hãy tìm cách trả ít tờ tiền nhất với số tiền đúng bằng S
+Chú ý: Các tờ tiền có giá trị bất kỳ và có thể bằng nhau, mỗi tờ tiền chỉ được dùng một lần.
+Input:
+3 5
+1 4 5
+Output:
+1
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 int n,s,A[30]; int kq=1e9;
