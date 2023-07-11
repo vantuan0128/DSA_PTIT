@@ -78,3 +78,25 @@ int main() {
     return 0;
 }
 
+/* Cach 2
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    int T;
+    cin >> T;
+    while (T--) {
+        string a, b, c, d, e;
+        cin >> a >> b >> c >> d >> e;
+        if (a.find("machula") != string::npos) {
+            cout << stoi(e) - stoi(c) << " + " << c << " = " << e << endl;
+        } else if (c.find("machula") != string::npos) {
+            cout << a << " + " << stoi(e) - stoi(a) << " = " << e << endl;
+        } else {
+            cout << a << " + " << c << " = " << stoi(a) + stoi(c) << endl;
+        }
+    }
+    return 0;
+}
+*/
