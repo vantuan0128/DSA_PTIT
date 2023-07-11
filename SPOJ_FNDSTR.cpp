@@ -29,3 +29,27 @@ int main() {
     return 0;
 }
 
+/*
+Cho 2 String S1 (0 <= S1.length() <= 10) và S2 (0 <= S2.length() <= 1000). Biết rằng String S1 có độ dài luôn nhỏ hơn String S2. Hãy tìm số lần xuất hiện của String S1 trong String S2.
+
+Input
+Có tổng cộng 10 test case.
+Mỗi test case gồm 3 dòng.
+Dòng đầu tiên của mỗi test case là số thứ tự của test case đó.
+Dòng thứ 2 của mỗi test case là String S1.
+Và dòng thứ 3 của mỗi test case là String S2.
+Lưu ý, String S2 có thể chứa khoảng trắng (dấu cách).
+
+Output
+In đáp số theo định dạng sau:
+Ký tự đầu tiên là ký tự "#", tiếp theo đó là số thứ tự của test case, tiếp theo là số lần xuất hiện của String S1 trong String S2.
+
+Example
+Input:
+1
+ab
+abbbaaabbbab
+
+Output:
+#1 3
+*/
