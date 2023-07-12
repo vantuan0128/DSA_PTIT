@@ -1,5 +1,7 @@
 #include <iostream>
+
 #include <string>
+
 using namespace std;
 
 int main() {
@@ -8,20 +10,19 @@ int main() {
     for (int i = 1; i <= t; i++) {
         string s;
         cin >> s;
+        s = "x" + s;
         int n = s.length();
-        bool dp[n][n];
+        bool dp[n + 1][n + 1];
         int maxLen = 1;
-        for (int j = 0; j < n; j++)
-            dp[j][j] = true;
-        for (int l = 2; l <= n; l++) {
-            for (int j = 0; j < n - l + 1; j++) {
-                int k = j + l - 1;
-                if (l == 2)
-                    dp[j][k] = (s[j] == s[k]);
-                else
-                    dp[j][k] = (s[j] == s[k]) && dp[j + 1][k - 1];
-                if (dp[j][k])
-                    maxLen = max(maxLen, k - j + 1);
+        for (int j = 1; j <= n; j++) dp[j][j] = true;
+        for (int len = 2; len <= n; len++) {
+            for (int i = 1; i <= n - len + 1; i++) {
+                int j = i + len - 1;
+                //F[i][j]: co do dai la len
+                if (len == 2 && s[i] == s[j])
+                    dp[i][j] = true;
+                else dp[i][j] = (s[i] == s[j]) && dp[i + 1][j - 1];
+                if (dp[i][j]) maxLen = max(maxLen, len);
             }
         }
         cout << "#" << i << " " << maxLen << endl;
@@ -41,4 +42,3 @@ Output:
 #1 1
 #2 3
 */
-
