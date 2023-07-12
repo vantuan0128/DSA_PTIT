@@ -10,8 +10,8 @@ int main() {
     for (int i = 1; i <= t; i++) {
         string s;
         cin >> s;
-        s = "x" + s;
         int n = s.length();
+        s = "x" + s;
         bool dp[n + 1][n + 1];
         int maxLen = 1;
         for (int j = 1; j <= n; j++) dp[j][j] = true;
